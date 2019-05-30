@@ -58,7 +58,7 @@ public class Ejemplo31 {
             }
         }
         // Presentación de resultados
-        System.out.println("Reporte");
+        System.out.println("Notas ingresadas\nRangos:");
         // Ciclo for para recorrer el arrelo y presentar resultados
         for(int i = 0; i < n.length; i ++){
             System.out.printf("Notas en %s: %d\n", rangos[i], n[i]);
