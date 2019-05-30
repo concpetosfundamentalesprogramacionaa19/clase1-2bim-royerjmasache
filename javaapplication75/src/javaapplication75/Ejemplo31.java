@@ -57,7 +57,7 @@ public class Ejemplo31 {
                 bandera = false;
             }
         }
-        // Prsentación de resultados
+        // Presentación de resultados
         System.out.println("Reporte");
         // Ciclo for para recorrer el arrelo y presentar resultados
         for(int i = 0; i < n.length; i ++){
