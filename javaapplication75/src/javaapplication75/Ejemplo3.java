@@ -20,25 +20,23 @@ public class Ejemplo3 {
         Random aleatorios = new Random();
         int[] datos = new int[3];
         String[] rangos = {"0-100", "101-199", "200-adelante"};
-        
-        int cantidad = 1000;
-        if(cantidad <=100){
+        // Declaración de variable
+        int cantidad = 199;
+        // Estructuras condicionales
+        if(cantidad <= 100){
             datos[0] = datos[0] + 1;
-        }else{
-            if(cantidad>=101 && cantidad <=199){
+        } else {
+            if(cantidad >= 101 && cantidad <= 199){
                 datos[1] = datos[1] + 1;
-            }else{
+            } else {
                 datos[2] = datos[2] + 1;
             }
         }
         
         System.out.println("Resultados");
         
-        for(int i = 0; i<datos.length; i++){
+        for(int i = 0; i < datos.length; i++){
             System.out.printf("Ventas en %s - %d\n", rangos[i], datos[i]);
         }
-        
-
-
     }
 }

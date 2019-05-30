@@ -18,12 +18,18 @@ public class ArregloCinco {
         // TODO code application logic here
 
         int[] c = {10, 20, 30, 40}; // declaramos la variable
-      
-        System.out.printf("%s\t\t%s\n", "Indice", "Valor");
-
+        double operacion = 0;
+        System.out.printf("%s\t\t%s\t\t%s\n", "Indice", "Valor", "Resultado");
+        // Ciclo repetitivo for para recorrer el arreglo
         for (int contador = 0; contador < c.length; contador++) {
-            System.out.printf("%d\t\t%d\n", contador, c[contador]);
+        /*
+        Operación para elevar al cuadrado en valor en la posición
+        del contador
+        */
+        operacion = Math.pow(c[contador], 2);
+        // Presentación de resultados
+        System.out.printf("%d\t\t%d\t\t%.2f\n", contador, c[contador],
+                    operacion);
         }
     }
-
 }
